@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".MainActivity">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1.Apakah Bahasa Pemograman untuk aplikasi"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <RadioGroup
+            android:id="@+id/soal1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18sp">
+
+        <RadioButton
+            android:id="@+id/jwb1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="XML dan c++"
+            />
+        <RadioButton
+            android:id="@+id/jwb2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="html dan php"/>
+        <RadioButton
+            android:id="@+id/jwb3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="xml dan jawa"/>
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2.Indonesia merdeka pada tahun?"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <RadioGroup
+            android:id="@+id/soal2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18sp">
+
+        <RadioButton
+            android:id="@+id/inijawaban1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1945"
+            />
+        <RadioButton
+            android:id="@+id/inijawaban2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1800"/>
+        <RadioButton
+            android:id="@+id/inijawaban3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2000"/>
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3.Negara dengan sebutan Tirai Bambu"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <RadioGroup
+            android:id="@+id/soal3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18sp">
+
+        <RadioButton
+            android:id="@+id/inijawaban4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="jepang"
+            />
+        <RadioButton
+            android:id="@+id/inijawaban5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="China"/>
+        <RadioButton
+            android:id="@+id/inijawaban6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Indonesia"/>
+        </RadioGroup>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="4.Pancasila Ada?"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <RadioGroup
+            android:id="@+id/soal4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18sp">
+
+        <RadioButton
+            android:id="@+id/inijawaban7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3"
+            />
+        <RadioButton
+            android:id="@+id/inijawaban8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="4"/>
+        <RadioButton
+            android:id="@+id/inijawaban9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="5"/>
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="5.ibu kota indonesia?"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <RadioGroup
+            android:id="@+id/soal5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18sp">
+
+        <RadioButton
+            android:id="@+id/inijawaban10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Medan"
+            />
+        <RadioButton
+            android:id="@+id/inijawaban11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="jakarta"/>
+        <RadioButton
+            android:id="@+id/inijawaban12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bandung"/>
+        </RadioGroup>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="6.Smkn 4 Bandung berada di?"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <RadioGroup
+            android:id="@+id/soal6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18sp">
+
+        <RadioButton
+            android:id="@+id/inijawaban13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="jl.kliningan"
+            />
+        <RadioButton
+            android:id="@+id/inijawaban14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Jl.Terusan Buah Batu"/>
+        <RadioButton
+            android:id="@+id/inijawaban15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Jl.terusan Patung kuda"/>
+        </RadioGroup>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="7.Nabi yang akan turun saat dajjal meraja lela adalah Nabi?"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <RadioGroup
+            android:id="@+id/soal7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18sp">
+
+        <RadioButton
+            android:id="@+id/inijawaban16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nabi Adam"
+            />
+        <RadioButton
+            android:id="@+id/inijawaban17"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nabi Yunus"/>
+        <RadioButton
+            android:id="@+id/inijawaban18"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="nabi isa"/>
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="8.Manusia yang akan memimpin umat islam pada akhir jaman adalah??"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <RadioGroup
+            android:id="@+id/soal8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18sp">
+
+        <RadioButton
+            android:id="@+id/inijawaban19"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="imam mahdi"
+            />
+        <RadioButton
+            android:id="@+id/inijawaban20"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Abu Lahab"/>
+        <RadioButton
+            android:id="@+id/inijawaban21"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Megawati"/>
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="9.Hasil Dari 100*10 Adalah"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <RadioGroup
+            android:id="@+id/soal9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18sp">
+
+            <RadioButton
+                android:id="@+id/inijawaban22"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2000"
+                />
+            <RadioButton
+                android:id="@+id/inijawaban23"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="3000"/>
+            <RadioButton
+                android:id="@+id/inijawaban24"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1000"/>
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="10.wali kelas XI PPLG 2 Adalah..."
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <RadioGroup
+            android:id="@+id/soal10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18sp">
+
+            <RadioButton
+                android:id="@+id/inijawaban25"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="bu rani"
+                />
+            <RadioButton
+                android:id="@+id/inijawaban26"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Bu Arne"/>
+            <RadioButton
+                android:id="@+id/inijawaban27"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pa Ali"/>
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/inibutton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Submit"
+            />
+
+
+
+
+
+    </LinearLayout>
+</ScrollView>
